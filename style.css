@@ -1,0 +1,755 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dorsa&display=swap');
+
+/* estilo geral - header e footer ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+
+* {
+    font-family: 'Barlow';
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+#header {
+    width: 100%;
+    height: 200px;
+    padding: 28px 8% 50px;
+    background-color: #0D2F26;
+}
+
+.header_outros {
+
+    background-color: #0D2F26;
+    padding: 28px 8% 50px;
+    width: 100%;
+}
+
+#navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+#nav_logo_link {
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+#nav_logo {
+    width: 60px;
+    height: 60px;
+    color: #e9a209;
+
+}
+
+#name_logo {
+    font-family: "Dorsa", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#nav_list {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+.nav-item a:hover {
+    color: #e9a209;
+    border-bottom: 1px solid;
+    padding-bottom: 0.5rem;
+    font-size: 18px;
+}
+
+#btn-peca-agora {
+    width: 130px;
+    height: 50px;
+    background: #fff;
+    color: #0D2F26;
+    padding: 10px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+#btn-peca-agora:hover,
+#btn-peca-agora:focus {
+    background: #e9a209;
+}
+
+
+.footer {
+    width: 100%;
+    height: 200px;
+    padding: 28px 8%;
+    ackground-color: #14463A;
+    background-image: linear-gradient(to bottom, #0D2F26, #123d32);
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-top: 0px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.funcionamento {}
+
+.copyright {
+    text-align: center;
+}
+
+/* estilo index */
+
+
+#main {
+    width: 100%;
+    height: 200px;
+    padding: 28px 8%;
+    background-image: linear-gradient(to bottom, #0D2F26, #15483a);
+    color: #fff;
+    font-size: 36px;
+    position: relative;
+}
+
+#novos-sabores {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 36px;
+}
+
+#palavra-paladar {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 36px;
+    color: #e9a209;
+    font-weight: 400;
+}
+
+#img-cafe-grao {
+    position: absolute;
+    right: 0;
+    top: -130px;
+}
+
+#section1 {
+    display: flex;
+    background-color: #FFFFFF;
+
+}
+
+#img-graos {
+    width: 400px;
+    height: 300px;
+    margin-top: 280px;
+    margin-bottom: 20px;
+
+}
+
+#nossos-cafes {
+    margin-top: 320px;
+    margin-left: 300px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 36px;
+}
+
+#nossos-cafes span {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+#frase-nosso-cafe {
+    margin-top: 370px;
+    margin-left: -250px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+
+#tipos-de-torra {
+    display: flex flex-wrap;
+    background-color: #FBEEE5;
+    width: 100%;
+    height: 800px;
+    padding-top: 30px;
+
+}
+
+#torra-titulo {
+    text-align: center;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 36px;
+
+}
+
+#torra-titulo span {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+
+.torra-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 400px;
+    padding-top: 50px;
+    gap: 25px;
+
+}
+
+.box-clara {
+    text-align: center;
+    align-content: space-around;
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+    background-color: #C68B59;
+    color: #fff;
+}
+
+#texto-clara {
+    color: #C68B59;
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.box-media {
+    text-align: center;
+    align-content: space-around;
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+    background-color: #865439;
+    color: #fff;
+}
+
+#texto-media {
+    color: #865439;
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.box-media-escura {
+    text-align: center;
+    align-content: space-around;
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+    background-color: #402218;
+    color: #fff;
+}
+
+#texto-media-escura {
+    color: #402218;
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.box-escura {
+    text-align: center;
+    align-content: space-around;
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+    background-color: #361500;
+    color: #fff;
+}
+
+#texto-escura {
+    color: #361500;
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.texto-tipos-de-torra {
+    padding-top: 30px;
+}
+
+.img-cafe-torra {
+    align-items: center;
+
+}
+
+/* estilo cardapio ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.section-cardapio {
+    background-color: #fbeee5;
+    width: 100%;
+    height: px;
+    padding-bottom: 100px;
+
+}
+
+.nosso-cardapio {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.nosso-cardapio span {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+}
+
+.box-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    text-align: center;
+    gap: 150px;
+}
+
+.box-menu h3 {
+    font-family: "Barlow", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 10px;
+}
+
+.box-menu p {
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    padding: 20px;
+}
+
+.box-menu a {
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.produto {}
+
+
+.produto img {
+    height: 250px;
+    border-radius: 50%;
+
+}
+
+.produto h3 {
+    text-align: c;
+}
+
+.produto p {
+    text-align: ;
+}
+
+.btn-carrinho {
+    width: 130px;
+    height: 50px;
+    background: #C68B59;
+    color: #fff;
+    padding: 10px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.btn-carrinho:hover,
+.btn-carrinho:focus {
+    background: #e9a209;
+}
+
+/* estilo curiosidades ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.container_h2 {
+    display: flex;
+    margin: 100px auto 45px;
+    padding: 15px;
+    justify-content: center;
+    width: fit-content;
+}
+
+.h2_curiosidade {
+
+    font-family: "Barlow", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    color: #361500;
+}
+
+.container_curiosidade_left,
+.container_curiosidade_right {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 8rem;
+    color: #361500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container_curiosidade_left {
+    flex-direction: row-reverse;
+    background-color: #fbede5;
+
+}
+
+.img_curiosidade_left,
+.img_curiosidade_right {
+    height: 17rem;
+    width: 25rem;
+    max-width: 100%;
+
+}
+
+.img_curiosidade_left {
+    border-radius: 0px 100px 100px 0px;
+}
+
+.img_curiosidade_right {
+    border-radius: 100px 0px 0px 100px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.curiosidade_text {
+    margin-top: 15px;
+    margin: 10px 50px 50px 50px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.nome_curiosidade_Right,
+.nome_curiosidade {
+    font-size: 3rem;
+    margin-left: 50px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* estilo sobre -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+#main-sobre {
+    margin-bottom: 20px;
+}
+
+#Container_Sobre {
+    background-color: #fbede5;
+    padding-top:10px;
+}
+
+.Container_h2_sobre {
+    display: flex;
+    margin: 60px auto 30px;
+    padding: 8px;
+    width: fit-content;
+    justify-content: center;
+}
+
+.h2_Sobre {
+    font-family: "League Spartan", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    color: #361500;
+
+}
+
+#Sobre_Text {
+    padding: 10px 150px 50px;
+    color: #361500;
+    text-align: justify;
+    font-size: 20px;
+}
+
+#Container_Perfis {
+    display: grid;
+    grid-template-columns: 1fr 50px 1fr;
+    grid-template-rows: 100px 100px 100px;
+
+    grid-template-areas:
+        "perfil1 none perfil2"
+        "perfil1 none perfil2"
+        "perfil1 none perfil2"
+    ;
+    margin: auto 100px;
+}
+
+#perfil1 {
+    grid-area: perfil1;
+    border: solid #361500;
+    background-color: #0D2F26;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#perfil2 {
+    grid-area: perfil2;
+    border: solid #361500;
+    background-color: #0D2F26;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.Foto_perfil {
+    height: 6rem;
+    margin: 3% auto;
+    border-radius: 50%;
+    border: solid #361500 2px;
+}
+
+.redes_perfis {
+    margin-top: 15px;
+}
+
+.nome_perfil {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Text_Perfil {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    padding: auto 20px;
+
+}
+
+
+
+/* estilo contato ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.Container_h2_contato {
+    display: flex;
+    margin: 60px auto 30px;
+    padding: 8px;
+    width: fit-content;
+    justify-content: center;
+
+}
+
+.h2_Contato {
+    font-size: 36px;
+    color: #361500;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#conteudo_container {
+    display: flex;
+    margin: auto 10%;
+    justify-content: space-between;
+}
+
+.container_h3_contato {
+    background-color: #0D2F26;
+    border-radius: 30px;
+    padding: 7px;
+    border: solid 2px #361500;
+    margin-bottom: 15px;
+}
+
+.h3_contato {
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 300;
+
+}
+
+#lista_redes {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    list-style: none;
+    text-align: center;
+}
+
+#lista_redes a {
+    color: #fff;
+    border-radius: 30px;
+    padding: 7px;
+    margin-bottom: 15px;
+}
+
+#insta {
+    background-color: #6200eaa6;
+}
+
+#face {
+    background-color: #3f53b593;
+}
+
+#twit {
+    background-color: #03a8f4a8;
+}
+
+#you {
+    background-color: #ff3c00a7;
+}
+
+form div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
+
+form input,
+form textarea {
+    outline: unset;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #361500;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+form input:hover,
+form textarea:hover {
+    background-color: #fbeee5;
+}
+
+form input[type=submit] {
+    color: #fff;
+    background-color: #14463A;
+}
+
+form input[type=submit]:hover {
+    background-color: #e9a209;
+}
+
+/* media para responsividade-Styles for mobile and tablets */
+
+@media only screen and (max-width: 1050px) {
+
+    #nossos-cafes {
+
+        margin-left: 100px;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 950px) {
+
+    .texto-tipos-de-torra {
+        font-size: small;
+
+
+    }
+
+    .img-cafe-torra {
+
+        height: 250px;
+
+    }
+
+    #img-cafe-grao {
+
+        height: 0px;
+
+
+    }
+
+    #novos-sabores {
+
+        font-size: 70px;
+
+    }
+
+    #palavra-paladar {
+
+        font-size: 80px;
+
+    }
+
+    #nav_list {
+        gap: 30px;
+    }
+
+}
