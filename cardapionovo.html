@@ -61,7 +61,8 @@
                 valor: 15.9
             }
         ]
-        const cliente = prompt("Qual o seu nome?")
+        const entradaCliente = prompt("Qual o seu nome?")
+        const entradaPedido = prompt("Em qual mesa você está?")
 
         inicializarLoja = () => {
             var containerProdutos = document.getElementById('produtos');
@@ -109,7 +110,7 @@
                     product.quantidade++
                 }
                 const total = totalCarrinho();
-                 console.log(total);
+                 console.log(entradaCliente + " , o seu total é de: " + total + new Date());
                 atualizarCarrinho();
                 return false;
 
